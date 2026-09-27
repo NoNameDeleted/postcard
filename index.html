@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Сцена с кубом</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <!-- Панель загрузки PNG -->
+    <div id="upload-panel">
+      <label class="upload-btn" for="file-input">
+        Загрузить PNG (до 128×128, чётные размеры)
+      </label>
+      <input type="file" id="file-input" accept="image/png" />
+      <div id="upload-status"></div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
